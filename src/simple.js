@@ -12,7 +12,7 @@ class Simple extends Component {
         data:[],
     };
 
-    componentDidMount(){
+    componentDidMount(){   
 
         // this.fetchData();
 
