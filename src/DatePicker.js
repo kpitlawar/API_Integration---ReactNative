@@ -5,12 +5,10 @@ import Moment from 'react-moment';
 
 const DatePicker = () => {
     const [isDatePickerVisible, setDatePickerVisibility] = useState(false);
-    const [dateFinal, setDateFinal] = useState();
 
- 
 
     // using state
-    //   constructor(){
+    //   constructor(){      
     //       super();
     //       this.state = {
     //         isDatePickerVisible : false

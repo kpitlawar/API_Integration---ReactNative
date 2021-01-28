@@ -5,6 +5,7 @@ import {
   Text,
   StyleSheet
 } from 'react-native';
+import DateFormat from './src/DateFormat';
 import DatePicker from './src/DatePicker';
 import Simple from './src/simple';
 import SubmitformPost from './src/SubmitformPost';
@@ -15,7 +16,8 @@ const App = () => {
     <View>
       {/* <Simple/> */}
       {/* <SubmitformPost/> */}
-      <DatePicker/>
+      {/* <DatePicker/> */}
+      <DateFormat/>
     </View>
   )
 }
