@@ -23,17 +23,17 @@ function App() {
   return (
 
     // using props 
-    // <View>
-    //   <Text>In App Component</Text>
-    //   <ScreenTwo name="kpitlawar7715" />
-    // </View>
+    <View>
+      <Text>In App Component</Text>
+      <ScreenTwo name="kpitlawar7715" />
+    </View>
 
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="ScreenOne">
-        <Stack.Screen name="ScreenOne" component={ScreenOne} />
-        <Stack.Screen name="ScreenTwo" component={ScreenTwo} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    // <NavigationContainer>
+    //   <Stack.Navigator initialRouteName="ScreenOne">
+    //     <Stack.Screen name="ScreenOne" component={ScreenOne} />
+    //     <Stack.Screen name="ScreenTwo" component={ScreenTwo} />
+    //   </Stack.Navigator>
+    // </NavigationContainer>
   );
 }
 
