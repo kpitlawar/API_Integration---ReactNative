@@ -5,11 +5,13 @@ import {
   Text,
   StyleSheet
 } from 'react-native';
+import Counter from './src/Counter';
 import DateFormat from './src/DateFormat';
 import DatePicker from './src/DatePicker';
 import RNResponsiveSrc from './src/RNResponsiveSrc';
 import Simple from './src/simple';
 import SubmitformPost from './src/SubmitformPost';
+import TodoApp from './src/TodoApp';
 
 
 const App = () => {
@@ -19,7 +21,9 @@ const App = () => {
       {/* <SubmitformPost/> */}
       {/* <DatePicker/> */}
       {/* <DateFormat/> */}
-      <RNResponsiveSrc/>
+      {/* <RNResponsiveSrc/> */}
+      {/* <Counter /> */}
+      <TodoApp />
     </View>
   )
 }
