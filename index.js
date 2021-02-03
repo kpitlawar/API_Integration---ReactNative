@@ -1,9 +1,10 @@
 /**
  * @format
  */
-
-import {AppRegistry} from 'react-native';
+import 'react-native-gesture-handler';
+import { AppRegistry } from 'react-native';
+import ScreenOne from './src/ScreenOne';
+import { name as appName } from './app.json';
 import App from './App';
-import {name as appName} from './app.json';
 
 AppRegistry.registerComponent(appName, () => App);
