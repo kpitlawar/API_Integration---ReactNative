@@ -16,17 +16,22 @@ import SubmitformPost from './src/SubmitformPost';
 import TodoApp from './src/TodoApp'
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import AsyncStorage from './src/AsyncStorage';
 
 const Stack = createStackNavigator();
 
 function App() {
   return (
 
+
+    <AsyncStorage />
+
     // using props 
-    <View>
-      <Text>In App Component</Text>
-      <ScreenTwo name="kpitlawar7715" />
-    </View>
+
+    // <View>
+    //   <Text>In App Component</Text>
+    //   <ScreenTwo name="kpitlawar7715" />
+    // </View>
 
     // <NavigationContainer>
     //   <Stack.Navigator initialRouteName="ScreenOne">
